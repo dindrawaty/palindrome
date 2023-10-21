@@ -1,8 +1,8 @@
 
 #Palindrome
 # How to set up two pointers in an array
-
 def two_pointers(array):
+    #create 2 pointer, left and right, which will traverse in different direction until they meet.
     left = 0
     right = len(array) - 1
     while left <= right:
